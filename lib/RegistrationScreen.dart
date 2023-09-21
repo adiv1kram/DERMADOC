@@ -121,7 +121,7 @@ class _RegistrationPage extends State<RegistrationScreen> {
                                   BorderRadius.all(Radius.circular(10))),
                           errorText: _erroremailtext,
                           label: const Text(
-                            'VITAP Email ',
+                            ' Email ',
                             style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 14,

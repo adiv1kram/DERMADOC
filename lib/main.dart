@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Montserrat',
         scaffoldBackgroundColor: const Color.fromARGB(255, 246, 246, 246),
       ),
-      home: const RegistrationScreen(),
+      home: const LogInClass(),
     );
   }
 }
