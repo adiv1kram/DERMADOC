@@ -1,3 +1,4 @@
+import 'package:dermadoc_sih/LoginScreen.dart';
 import 'package:flutter/material.dart';
 
 class RegistrationScreen extends StatefulWidget {
@@ -95,8 +96,7 @@ class _RegistrationPage extends State<RegistrationScreen> {
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(
-                  'assets/images/Locaro_background_waves_red_700x300.png'),
+              image: AssetImage('assets/images/DermaDoc_solid.png'),
               fit: BoxFit.cover,
             ),
           ),
@@ -189,7 +189,7 @@ class _RegistrationPage extends State<RegistrationScreen> {
                   style: ElevatedButton.styleFrom(
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20)),
-                      backgroundColor: const Color.fromARGB(255, 185, 5, 4),
+                      backgroundColor: Color.fromARGB(255, 59, 82, 255),
                       fixedSize: const Size(350, 30),
                       foregroundColor: Colors.white),
                   child: const Text(
@@ -202,7 +202,7 @@ class _RegistrationPage extends State<RegistrationScreen> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const RegistrationScreen(),
+                            builder: (context) => const LogInClass(),
                           ));
                     },
                     style: TextButton.styleFrom(
