@@ -1,4 +1,5 @@
 import 'package:dermadoc_sih/LoginScreen.dart';
+import 'package:dermadoc_sih/RegistrationScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Montserrat',
         scaffoldBackgroundColor: const Color.fromARGB(255, 246, 246, 246),
       ),
-      home: const LogInClass(),
+      home: const RegistrationScreen(),
     );
   }
 }

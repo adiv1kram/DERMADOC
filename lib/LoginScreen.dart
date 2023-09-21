@@ -1,3 +1,4 @@
+import 'package:dermadoc_sih/RegistrationScreen.dart';
 import 'package:flutter/material.dart';
 
 class LogInClass extends StatefulWidget {
@@ -136,7 +137,8 @@ class _SignInScreenState extends State<LogInClass> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => LogInClass()),
+                      MaterialPageRoute(
+                          builder: (context) => const RegistrationScreen()),
                     );
                   },
                   label: const Text(
